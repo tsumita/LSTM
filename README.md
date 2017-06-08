@@ -1,2 +1,2 @@
 # LSTM
-LSTM実装
+LSTM（Seq2Seq）実装
