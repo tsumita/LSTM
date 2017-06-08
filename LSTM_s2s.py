@@ -158,8 +158,7 @@ def train():
         
         
 if __name__ == "__main__":
-    print ('開始: ', datetime.datetime.now())
-    
+    print ('開始: ', datetime.datetime.now())    
     try:
         train()
         
