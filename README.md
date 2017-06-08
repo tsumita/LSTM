@@ -1,2 +1,2 @@
 # LSTM
-LSTMサンプル実装
+LSTM実装
