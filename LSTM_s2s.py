@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Sun Jun  4 21:31:31 2017
 @author: daisuke
 """
 from chainer import Chain, Variable, cuda, functions, links, optimizer, optimizers, serializers
