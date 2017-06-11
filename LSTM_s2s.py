@@ -65,8 +65,8 @@ class Seq2Seq(Chain):
         h = Variable(np.zeros((self.batch_size, self.hidden_size), dtype='float32'))
         for w in words:
             c, h = self.encoder(w, c, h)
-        self.c = c
-        self.h = Variable(np.zeros((self.batch_size, self.hidden_size), dtype='float32'))
+        self.h = h
+        self.c = Variable(np.zeros((self.batch_size, self.hidden_size), dtype='float32'))
         
     def decode(self, w):
         t, self.c, self.h = self.decoder(w, self.c, self.h)
